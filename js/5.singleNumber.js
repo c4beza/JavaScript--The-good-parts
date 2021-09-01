@@ -34,7 +34,7 @@
 // }
 // 方法三 异或运算
 var singleNumber = function(nums){
-return nums.reduce((total,cur) => total ^ cur);  //total为累加器，reduce接受一个方法作为reducer然后遍历数组。
+    return nums.reduce((total,cur) => total ^ cur);  //total为累加器，reduce接受一个方法作为reducer然后遍历数组。
 }
 
 
