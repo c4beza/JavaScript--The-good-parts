@@ -41,10 +41,12 @@ var findLHS = function(nums) {
                 count++
             }
             arr.push(count)
+        }else{
+            arr.push(0)
         }
         i = temp
     }
-    console.log(arr)
+    return Math.max(...arr)
 };
 
 let nums = [1,3,2,2,5,2,3,7]
